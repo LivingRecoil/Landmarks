@@ -14,6 +14,7 @@
 		A5428961289CE332001873A5 /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5428960289CE332001873A5 /* LandmarksTests.swift */; };
 		A542896B289CE332001873A5 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A542896A289CE332001873A5 /* LandmarksUITests.swift */; };
 		A542896D289CE332001873A5 /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A542896C289CE332001873A5 /* LandmarksUITestsLaunchTests.swift */; };
+		A542897A289D0E39001873A5 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5428979289D0E39001873A5 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A5428966289CE332001873A5 /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A542896A289CE332001873A5 /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		A542896C289CE332001873A5 /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A5428979289D0E39001873A5 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				A542894F289CE330001873A5 /* LandmarksApp.swift */,
 				A5428951289CE330001873A5 /* ContentView.swift */,
 				A5428953289CE332001873A5 /* Assets.xcassets */,
+				A5BECCB0289D1B5F000EEEA5 /* View */,
 				A5428955289CE332001873A5 /* Preview Content */,
 			);
 			path = Landmarks;
@@ -125,6 +128,14 @@
 				A542896C289CE332001873A5 /* LandmarksUITestsLaunchTests.swift */,
 			);
 			path = LandmarksUITests;
+			sourceTree = "<group>";
+		};
+		A5BECCB0289D1B5F000EEEA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5428979289D0E39001873A5 /* CircleImage.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				A5428952289CE330001873A5 /* ContentView.swift in Sources */,
 				A5428950289CE330001873A5 /* LandmarksApp.swift in Sources */,
+				A542897A289D0E39001873A5 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
