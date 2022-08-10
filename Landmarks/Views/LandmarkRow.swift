@@ -19,7 +19,6 @@ struct LandmarkRow: View {
             
             Spacer()
         }
-        .padding()
     }
 }
 
