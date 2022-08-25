@@ -16,6 +16,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(ModelData())
             .previewDevice(PreviewDevice(rawValue: "iPhone 11 Pro"))
             .previewDisplayName("iPhone 11 Pro")
     }
