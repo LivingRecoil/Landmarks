@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct LandmarkList: View {
+    // A property wrapper for an observable object supplied by a parent or ancestor view
+    @EnvironmentObject var modelData: ModelData
+    
     // Synchronize views referring to this property with
     @State private var showFavaritesOnly: Bool
     init() {
@@ -15,7 +18,7 @@ struct LandmarkList: View {
     }
     
     var filteredLandmarks: [Landmark] {
-        landmarks.filter { landmark in
+        modelData.landmarks.filter { landmark in
             // In which only one of the two values has to be true
             // for the overall expression to be true
             (!showFavaritesOnly || landmark.isFavorite)
@@ -48,5 +51,6 @@ struct LandmarkList: View {
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
         LandmarkList()
+            .environmentObject(ModelData())
     }
 }
