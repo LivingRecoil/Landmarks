@@ -28,6 +28,7 @@
 		A5E7E87328DA1484003797D5 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E7E87228DA1484003797D5 /* BadgeSymbol.swift */; };
 		A5E7E87528DA196D003797D5 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E7E87428DA196D003797D5 /* RotatedBadgeSymbol.swift */; };
 		A5E7E87728DA213C003797D5 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E7E87628DA213C003797D5 /* Badge.swift */; };
+		A5E7E87C28DA31E3003797D5 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = A5E7E87B28DA31E3003797D5 /* hikeData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		A5E7E87228DA1484003797D5 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		A5E7E87428DA196D003797D5 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		A5E7E87628DA213C003797D5 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		A5E7E87B28DA31E3003797D5 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 		A5BBDA1828A08EC7003F212F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A5E7E87B28DA31E3003797D5 /* hikeData.json */,
 				A5BBDA1928A08F02003F212F /* landmarkData.json */,
 			);
 			path = Resources;
@@ -321,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E7E87C28DA31E3003797D5 /* hikeData.json in Resources */,
 				A5428957289CE332001873A5 /* Preview Assets.xcassets in Resources */,
 				A5428954289CE332001873A5 /* Assets.xcassets in Resources */,
 				A5BBDA1A28A08F02003F212F /* landmarkData.json in Resources */,
