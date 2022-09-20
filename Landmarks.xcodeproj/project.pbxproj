@@ -179,11 +179,7 @@
 			children = (
 				A5C7604A28B81E32000EE50B /* Helpers */,
 				A5C7604928B81D41000EE50B /* Landmarks */,
-				A5E7E86E28D7684F003797D5 /* HexagonParameters.swift */,
-				A5E7E87028D7731C003797D5 /* BadgeBackground.swift */,
-				A5E7E87228DA1484003797D5 /* BadgeSymbol.swift */,
-				A5E7E87428DA196D003797D5 /* RotatedBadgeSymbol.swift */,
-				A5E7E87628DA213C003797D5 /* Badge.swift */,
+				A5E7E87828DA23F4003797D5 /* Badges */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -207,6 +203,18 @@
 				A5BECCB1289D279C000EEEA5 /* MapView.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A5E7E87828DA23F4003797D5 /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				A5E7E86E28D7684F003797D5 /* HexagonParameters.swift */,
+				A5E7E87028D7731C003797D5 /* BadgeBackground.swift */,
+				A5E7E87228DA1484003797D5 /* BadgeSymbol.swift */,
+				A5E7E87428DA196D003797D5 /* RotatedBadgeSymbol.swift */,
+				A5E7E87628DA213C003797D5 /* Badge.swift */,
+			);
+			path = Badges;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
